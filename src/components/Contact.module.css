@@ -1,0 +1,99 @@
+@media screen and (min-width: 801px){
+.contact{
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.contact img{
+    width: 30px;
+    filter: invert(1);
+    background: transparent;
+    transition: .3s ease-in-out;
+    
+}
+.contact div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact img:hover{
+    transform: scale(1.2);
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 760px) {
+    .contact{
+        background-color: transparent;
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 0;
+        padding-bottom: 24px;
+        margin: 0;
+        padding-top: 8px;
+        }
+    
+    
+    .contact img{
+        margin: 0;
+        width: 30px;
+        filter: invert(1);
+        background: transparent;
+        transition: .3s ease-in-out;
+        
+    }
+    .contact div{
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+    
+    .contact img:hover{
+        transform: scale(1.2);
+    }
+}
+
+@media screen and (min-width: 761px) and (max-width: 800px) {
+    .contact{
+        background-color: transparent;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 60px;
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+    }
+    
+    
+    .contact img{
+        width: 30px;
+        filter: invert(1);
+        background: transparent;
+        transition: .3s ease-in-out;
+        
+    }
+    .contact div{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .contact img:hover{
+        transform: scale(1.2);
+    }
+    
+}

@@ -1,0 +1,116 @@
+@media screen and (min-width: 801px) {
+.portifolio{
+    padding-top: 64px;
+    width: 100%;
+}
+.portifolio h3{
+  padding-left: 96px;
+  font-size: 60px;
+  font-weight: 900;
+  color: #f0f0f0;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 24px;
+    justify-content: center;
+    padding-bottom: 24px;
+    gap: 32px;
+  }
+
+  .project img{
+    width: 200px;
+    border-radius: 4px;
+  }
+
+  .project button{
+    background-color: transparent;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+  }
+.project button:hover{
+  transform: scale(1.2);
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 760px) {
+  .portifolio{
+    padding-top: 64px;
+    width: 100%;
+}
+.portifolio h3{
+  padding-left: 0;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    gap: 24px;
+  }
+
+  .project img{
+    width: 290px;
+    border-radius: 4px;
+  }
+
+  .project button{
+    background-color: transparent;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+  }
+.project button:hover{
+  transform: scale(1.2);
+}
+}
+
+@media screen and (min-width: 761px) and (max-width: 800px) {
+  .portifolio{
+    padding-top: 64px;
+    width: 100%;
+}
+.portifolio h3{
+  padding-left: 0;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    gap: 38px;
+  }
+
+  .project img{
+    width: 500px;
+    border-radius: 4px;
+  }
+
+  .project button{
+    background-color: transparent;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+  }
+.project button:hover{
+  transform: scale(1.2);
+}
+}

@@ -1,0 +1,111 @@
+@media screen and (min-width: 801px) {
+.section{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 50vh;
+    color: #f0f0f0;
+}
+
+.sectionname{
+    padding: 2.125rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;   
+}
+.sectionname h1{
+    padding-left: 64px;
+    font-size: 3.75rem;
+}
+
+.sectionname h2{
+    padding-left: 64px;
+    font-size: 40px;
+}
+
+
+.section img{
+    margin: 15%;
+    border: solid 2px #363636;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+}
+@media screen and (min-width: 200px) and (max-width: 760px) {
+    .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        color: #f0f0f0;
+        padding-top: 30px;
+    }
+    
+    .sectionname{
+        padding: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center; 
+        padding-bottom: 24px;  
+    }
+    .sectionname h1{
+        padding-left: 0;
+        font-size: 2rem;
+    }
+    
+    .sectionname h2{
+        padding-left: 0;
+        font-size: 1.5rem;
+    }
+    
+    
+    .section img{
+        margin: 0;
+        border: solid 2px #363636;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+  @media screen and (min-width: 761px) and (max-width: 800px) {
+    .section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 65vh;
+        color: #f0f0f0;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+    
+    .sectionname{
+        padding: 2.125rem;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;  
+    }
+    .sectionname h1{
+        padding-left: 0;
+        font-size: 3.7rem;
+    }
+    
+    .sectionname h2{
+        padding-left: 0;
+        font-size: 40px;
+    }
+    
+    
+    .section img{
+        margin: 0;
+        border: solid 2px #363636;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+  }
